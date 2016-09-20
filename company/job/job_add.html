@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>企业中心</title>
+	<link rel="stylesheet" href="../../src/css/common.css">
+	<link rel="stylesheet" href="../css/company.css">
+	<link rel="stylesheet" href="../css/job.css">
+	<script src="../../dist/js/jquery-1.12.2.min.js"></script>
+	<script src="../../dist/js/html5shiv.min.js"></script>
+	<script src="../../public/build/template.js"></script>
+	<script src="../../src/js/common.js"></script>
+	<script src="../js/company.js"></script>
+	<script src="../js/job.js"></script>
+</head>
+<body>
+	<section class="body-layer">
+		<!-- header -->
+		<header class="header">
+		</header>
+		<!-- header -->
+		<!-- company-main -->
+		<section class="main-layout">
+			<div class="company-head">
+				<h6 class="location">
+					企业用户中心
+				</h6>
+				<div class="company-nav">
+					<ul class="clearfix">
+						<li><a href="../resume/person.html" title="搜索人才">搜索人才</a></li>
+						<li><a href="../resume/resume_list.html" title="简历管理">简历管理</a></li>
+						<li><a href="job_list.html" class="active"  title="岗位管理">岗位管理</a></li>
+						<li><a href="../main.html" title="企业信息管理">企业信息管理</a></li>
+						<li><a href="../manage/account.html" title="账号管理">账号管理</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="job-layout">
+				<div class="job-head">
+					<div class="job-tags">
+						<ul>
+							<li class="on"><a href="javascript:;">新增岗位</a></li>
+						</ul>
+					</div>
+					<div class="job-operating">
+						<a href="job_list.html" class="j-return-btn"><i class="company-icon c-return-icon"></i><span class="icon-text">返回岗位列表</span></a>
+					</div>
+				</div>
+				<div class="j-release-post ">
+					<span>今日已发布<em>1</em>个岗位，还能发布<em>4</em>个岗位</span>
+				</div>
+				<div class="job-add-form">
+					<table width="100%">
+						<tbody>
+							<tr>
+								<th>
+									<em class="em-must">*</em>岗位类别
+								</th>
+								<td>
+									<select name="" id="" class="j-a-input">
+										<option value="0">请选择岗位类别</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<em class="em-must">*</em>岗位名称
+								</th>
+								<td>
+									<input type="text" name="" id="" placeholder="请输入岗位名称，如：软件工程师" class="j-a-input">
+								</td>
+							</tr>
+							<tr>
+								<th>
+									所属部门
+								</th>
+								<td>
+									<input type="text" name="" id="" placeholder="请输入所属部门" class="j-a-input">
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<em class="em-must">*</em>工作性质
+								</th>
+								<td>
+									<div class="j-add-nature">
+										<ul>
+											<li class="active">
+												<label for="j-n-qz">
+													<input type="radio" checked name="j-nature" id="j-n-qz" value="qz">
+													<span>全职</span>
+												</label>
+											</li>
+											<li>
+												<label for="j-n-jz">
+													<input type="radio" name="j-nature" id="j-n-jz" value="jz">
+													<span>兼职</span>
+												</label>
+											</li>
+											<li>
+												<label for="j-n-sx">
+													<input type="radio" name="j-nature" id="j-n-sx" value="sx">
+													<span>实习</span>
+												</label>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<em class="em-must">*</em>月薪范围
+								</th>
+								<td>
+									<div class="j-add-salary">
+										<ul>
+											<li>
+												<input type="text" name="" id="" placeholder="最低月薪" class="j-a-input"><em>k</em>
+											</li>
+											<li>
+												<input type="text" name="" id="" placeholder="最高月薪" class="j-a-input"><em>k</em>
+											</li>
+											<li>
+												<span class="tips cf00">只能输入整数，如0-9</span>
+											</li>
+										</ul>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<em class="em-must">*</em>工作城市
+								</th>
+								<td>
+									<input type="text" name="" id="" placeholder="最低月薪" class="j-a-input" value="温州">
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<em class="em-must">*</em>工作经验
+								</th>
+								<td>
+									<select name="" id="" class="j-a-input">
+										<option value="0">请选择工作经验</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<em class="em-must">*</em>学历要求
+								</th>
+								<td>
+									<select name="" id="" class="j-a-input">
+										<option value="0">请选择学历要求</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<em class="em-must">*</em>岗位优势
+								</th>
+								<td>
+									<input type="text" name="" id="" placeholder="描述岗位的吸引力，如：福利待遇等" class="j-a-input">
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<em class="em-must">*</em>岗位描述
+								</th>
+								<td>
+									<h6 class="cf00">请勿输入公司邮箱，联系电话，薪资面议及其它外链，否则自动删除</h6>
+									<textarea name="" id="" placeholder="请输入岗位职责，任职要求等具体信息" class="j-a-input"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<em class="em-must">*</em>工作地址
+								</th>
+								<td>
+									<input type="text" name="" id="" placeholder="请输入工作地址" value="浙江省温州市鹿城区瓯江路海港大厦15F" class="j-a-input"><a href="javascript:;" class="j-map-btn">预览地图</a>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									&nbsp;&nbsp;&nbsp;<em class="em-must">*</em>简历接受邮箱：cohr.job@cohr.com
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同时发送至邮箱（仅一个）&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" style="width: 322px" class="j-a-input">
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<a href="job_view.html" class="j-preview-btn">岗位预览</a><button class="j-release-btn">立即发布</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+		<!-- bg -->
+		<div class="bg-icon"></div>
+		<!-- bg -->
+	</section>
+	<!-- company-main -->
+	<!-- footer -->
+	<footer class="footer">
+	</footer>
+</body>
+</html>

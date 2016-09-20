@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>企业中心</title>
+	<link rel="stylesheet" href="../../src/css/common.css">
+	<link rel="stylesheet" href="../css/company.css">
+	<link rel="stylesheet" href="../css/job.css">
+	<script src="../../dist/js/jquery-1.12.2.min.js"></script>
+	<script src="../../dist/js/html5shiv.min.js"></script>
+	<script src="../../public/build/template.js"></script>
+	<script src="../../src/js/common.js"></script>
+	<script src="../js/company.js"></script>
+	<script src="../js/job.js"></script>
+	<script>
+		$(function(){
+			var trHtml = $('.job-list-wrap tbody tr:eq(0)').html()
+			for(var i = 0; i < 20; i++){
+				$('.job-list-wrap tbody').append('<tr>'+trHtml+'</tr>')
+			};
+		})
+	</script>
+</head>
+<body>
+	<section class="body-layer">
+		<!-- header -->
+		<header class="header">
+		</header>
+		<!-- header -->
+		<!-- company-main -->
+		<section class="main-layout">
+			<div class="company-head">
+				<h6 class="location">
+					企业用户中心
+				</h6>
+				<div class="company-nav">
+					<ul class="clearfix">
+						<li><a href="../resume/person.html" title="搜索人才">搜索人才</a></li>
+						<li><a href="../resume/resume_list.html" title="简历管理">简历管理</a></li>
+						<li><a href="job_list.html" class="active"  title="岗位管理">岗位管理</a></li>
+						<li><a href="../manage/main.html" title="企业信息管理">企业信息管理</a></li>
+						<li><a href="../manage/account.html" title="账号管理">账号管理</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="job-layout">
+				<div class="job-head">
+					<div class="job-tags">
+						<ul>
+							<li class="on"><a href="#">招聘中岗位</a></li>
+							<li><a href="#">已暂停岗位</a></li>
+						</ul>
+					</div>
+					<div class="job-operating">
+						<a href="job_add.html" class="j-add-btn"><i class="company-icon c-add-icon"></i><span class="icon-text">新增岗位</span></a>
+						<a href="javascript:;" class="j-re-btn"><i class="company-icon c-re-icon"></i><span class="icon-text">刷新全部</span></a>
+					</div>
+				</div>
+				<div class="job-filter clearfix">
+					<div class="j-search-bar">
+						<em>岗位名称查找：</em><input type="text" name="" id=""><button class="j-search-btn">搜&nbsp;&nbsp;索</button>
+					</div>
+					<div class="j-order">
+						<a href="#">收到简历<i class="o-arrow-up"></i></a>
+						<a href="#">更新日期<i class="o-arrow-down"></i></a>
+					</div>
+				</div>
+				<div class="job-list-wrap company-table-list">
+					<table width="100%">
+						<thead>
+							<tr>
+								<th class="check">
+									<label for="sel-all">
+										<input type="checkbox" name="" id="sel-all" class="all-checkbox">全选
+									</label>
+								</th>
+								<th class="post">
+									招聘职位
+								</th>
+								<th class="views">
+									访问量
+								</th>
+								<th class="rec-jl">
+									收到简历
+								</th>
+								<th class="time">
+									更新时间
+								</th>
+								<th class="status">
+									状态
+								</th>
+								<th class="operating">
+									操作
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="check">
+									<input type="checkbox" name="" id="" class="j-checkbox">
+								</td>
+								<td>
+									<span class="c38beaf">
+										UE/UI设计师
+									</span>
+								</td>
+								<td>
+									63
+								</td>
+								<td>
+									<span class="cff5722">3(0)</span>
+								</td>
+								<td>
+									2015-12-30&nbsp;14:30
+								</td>
+								<td>
+									暂停中
+								</td>
+								<td class="operating">
+									<a href="#" class="c83b526 j-edit-btn">修改</a>
+									<a href="javascript:;" class="j-more-btn">
+										<span>更多</span><i class="op-arrwo-down"></i>
+									</a>
+									<div class="j-more-sub">
+										<a href="javascript:;" class="j-m-sx">刷新</a>	
+										<a href="javascript:;" class="j-m-kq">开启</a>	
+										<a href="javascript:;" class="j-m-sc">删除</a>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="job-f-btn">
+					<a href="#" class="j-f-sx-btn">立即刷新</a>
+					<a href="#" class="j-f-zp-btn">开启招聘</a>
+					<a href="#" class="j-f-gw-btn">删除岗位</a>
+				</div>
+				<div class="pages">
+					<ul>
+						<li class="active"><a href="">1</a></li>
+						<li><a href="">2</a></li>
+						<li><a href="">3</a></li>
+						<li><a href="">4</a></li>
+						<li><a href="">5</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- bg -->
+		<div class="bg-icon"></div>
+		<!-- bg -->
+	</section>
+	<!-- company-main -->
+	<!-- footer -->
+	<footer class="footer">
+	</footer>
+</body>
+</html>

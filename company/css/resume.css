@@ -1,0 +1,75 @@
+/*搜索人才*/
+.person-wrap {margin: 18px 0}
+.person-input {margin-bottom: 10px; padding-left: 30px;}
+.person-input .p-select-bar {float: left; margin-right: 30px;}
+.person-input .p-select-bar span {display: inline-block; width: 70px;}
+.person-input .p-select-bar .p-s-input {width: 200px; padding-left: 15px; height: 28px; border: 1px solid #dbdbdb}
+.person-input .p-search-bar {float: right;}
+.person-input .p-search-bar input {padding-left: 15px; width: 200px; height: 28px; border: 1px solid #dbdbdb; margin-right: 18px;}
+.person-input .p-search-bar button {width: 88px; height: 30px; color: #fff; background: #3ed1bf; border: 0}
+
+.person-filter {padding-left: 30px; margin-bottom: 32px;}
+.person-filter dl {border-bottom: 1px dashed #dedede}
+.person-filter dt,.person-filter dd {float: left; line-height: 52px;}
+.person-filter dt {float: left; width: 70px;}
+.person-filter dd {float: left;}
+.person-filter ul {overflow: hidden;}
+.person-filter li {float: left; width: 100px; padding-left: 5px;}
+.person-filter li a {color: #000}
+.person-filter li a:hover,.person-filter li.active a {color: #3ed1bf;}
+.person-list .check {width: 85px;}
+.person-list .post {width: 180px;}
+.person-list .date {width: 190px;}
+.person-list .name {width: 160px;}
+.person-list .sex {width: 140px;}
+.person-list .education {width: 185px;}
+.person-list .all-checkbox,.person-list .p-checkbox {vertical-align: -2px; margin-right: 10px;}
+.p-collect-resume {margin: 22px 0 42px}
+.p-collect-resume .collect-btn {display: block; width: 100px; height: 40px; background: #4da3ea; color: #fff; border: 0}
+
+/*简历列表*/
+.resume-unfavorite {margin: 22px 0 42px}
+.resume-unfavorite .unfavorite-btn {width: 100px; height: 40px; background: #f06386; color: #fff; border: 0}
+.resume-views-wrap {padding: 50px 0;}
+.resume-views-wrap .resume-photo {width: 194px; height: 194px; margin-right: 80px; border-radius: 50%; overflow: hidden;}
+.resume-views-wrap .resume-intro {width: 480px;}
+.resume-views-wrap .resume-intro .r-i-info,
+.resume-views-wrap .resume-intro .r-i-jobEX,
+.resume-views-wrap .resume-intro .r-i-eduEX,
+.resume-views-wrap .resume-intro .r-i-salary {margin-bottom: 20px;}
+.resume-views-wrap .resume-intro .r-i-title {width: 165px; height: 40px; line-height: 40px; background: #f3f3f3; border-left: 15px solid #f06386; margin-bottom: 15px; text-align: center; font-size: 16px}
+.resume-views-wrap .resume-intro .r-i-info li {float: left; width: 50%; height: 40px; line-height: 40px;}
+.resume-views-wrap .resume-intro .r-i-jobEX li {margin-bottom: 15px;}
+.resume-views-wrap .resume-intro .r-i-jobEX li h6 {height: 40px; line-height: 40px; font-size: 14px}
+.resume-views-wrap .resume-intro .r-i-jobEX li h6 span {float: right; color: #808080}
+.resume-views-wrap .resume-intro .r-i-jobEX li p {line-height: 20px;}
+.resume-views-wrap .resume-intro .r-i-eduEX li {padding: 12px 0; overflow: hidden;}
+.resume-views-wrap .resume-intro .r-i-eduEX .img,.resume-views-wrap .resume-intro .r-i-eduEX .title {float: left}
+.resume-views-wrap .resume-intro .r-i-eduEX .img {width: 60px; height: 60px; margin-right: 20px; overflow: hidden;}
+.resume-views-wrap .resume-intro .r-i-eduEX .img img {width: 60px; height: 60px;}
+.resume-views-wrap .resume-intro .r-i-eduEX .title {padding-top: 8px; line-height: 20px;}
+.resume-views-wrap .resume-intro .r-i-eduEX .title p {color: #808080}
+.resume-views-wrap .resume-intro .r-i-eduEX .date {float: right; line-height: 60px;}
+.resume-views-wrap .resume-intro .r-i-salary li {float: left; height: 25px; line-height: 25px; margin-right: 65px;}
+.resume-views-wrap .resume-intro .r-i-tel li {float: left; width: 50%;}
+.resume-views-wrap .send-resume-btn {width: 160px; height: 40px; background: #3fb5c1; color: #fff; border: 0}
+
+.c-layer-wrap .r-intextion-main {overflow: hidden;}
+.c-layer-wrap .r-intextion-main dt,.r-intextion-main dd {float: left; font-size: 14px}
+.c-layer-wrap .r-intextion-main dt {margin-right: 30px;}
+.c-layer-wrap .r-intextion-main dd p {margin-bottom: 15px; overflow: hidden;}
+.c-layer-wrap .r-intextion-main dd input[type='radio'] {vertical-align: -1px; margin-right: 5px;}
+.c-layer-wrap .r-intextion-main .view-protocol {margin-bottom: 8px;}
+.c-layer-wrap .r-intextion-main .view-protocol input {vertical-align: -2px; margin-right: 5px;}
+.c-layer-wrap .r-intextion-main .view-protocol a {color: #3ed1bf;}
+.c-layer-wrap .r-intextion-main .view-protocol a:hover {text-decoration: underline;}
+.c-layer-wrap .r-intextion-suc {font-size: 14px;}
+.c-layer-wrap .r-intextion-suc .text {line-height: 40px;}
+.c-layer-wrap .r-intextion-suc .text .company-icon {margin-right: 20px;}
+.c-layer-wrap .r-intextion-suc .text span {color: #ff5722;}
+.c-layer-wrap .r-intextion-suc .return-job-list { margin: 10px 0; padding-left: 54px;}
+.c-layer-wrap .r-intextion-suc .return-job-list a {padding: 0 5px; text-decoration: underline;}
+
+
+
+

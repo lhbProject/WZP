@@ -1,0 +1,95 @@
+/*用户中心*/
+.company-center {padding: 0 45px; font-size: 14px}
+.company-center .company-tit {font-size: 18px}
+.c-edit-btn,.c-add-btn,.c-del-btn {width: 52px; display: block;}
+.c-edit-btn {color: #9bcd3e;}
+.c-add-btn {color: #9bcd3e}
+.c-del-btn {color: #b91f51;}
+.c-edit-btn:hover,.c-del-btn:hover,.c-add-btn:hover {text-decoration: underline;}
+.company-layer .fl,.company-layer .fr {width: 545px; position: relative;}
+.company-layer .fr {width: 495px; padding-left: 50px;}
+.company-layer .c-edit-btn {position: absolute; top: 0; right: 0;}
+.company-layer .c-edit-btn:hover {text-decoration: underline;}
+.company-layer {border-bottom: 1px solid #dbdbdb; padding: 30px 0}
+.company-layer .company-logo {float: left; width: 118px; height: 118px; margin-right: 27px; border: 1px solid #b7b7b7}
+.company-layer .company-details {float: left; width: 247px;}
+.company-layer .company-auth {overflow: hidden;}
+.company-layer .company-auth .company-tit {float: left; line-height: 34px; margin-right: 20px;}
+.company-layer .company-auth .company-auth-icon {float: left;}
+.company-layer .company-details .text {margin-top: 45px;}
+.company-layer .company-info ul {width: 330px; margin-top: 5px;}
+.company-layer .company-info li {float: left; width: 165px; height: 20px; margin-top: 24px;}
+.company-layer .company-intro {width: 460px;}
+.company-layer .company-intro .text {margin-top: 25px; line-height: 20px; font-size: 12px}
+.company-layer .company-scroll {position: relative; width: 495px; margin-top: 28px; overflow: hidden; float: right;}
+.company-layer .company-scroll .c-scroll-img {width: 426px; margin: 0 auto; overflow: hidden;}
+.company-layer .company-scroll .c-scroll-img li {float: left; width: 185px; height: 159px; margin: 0 14px;}
+.company-layer .company-scroll .prev-btn,.company-layer .company-scroll .next-btn {position: absolute; top: 50%; display: block; width: 18px; height: 33px; margin-top: -16px; opacity: 0.5; filter: alpha(opacity=50);}
+.company-layer .company-scroll .prev-btn:hover,.company-layer .company-scroll .next-btn:hover {opacity: 1; filter: alpha(opacity=100);}
+.company-layer .company-scroll .prev-btn {left: 0;}
+.company-layer .company-scroll .next-btn {right: 0}
+.company-layer .company-contact li,.company-layer .company-time li {margin-top: 15px;}
+.company-layer .company-contact li em,.company-layer .company-time li em  {color: #77a12a}
+.company-layer .company-contact .c-del-btn {margin-left: 10px; vertical-align: 2px; display: inline-block;}
+.company-layer .company-contact .c-del-btn:hover {text-decoration: underline;}
+.company-layer .company-map-box {overflow: hidden; margin-top: 37px;}
+.company-layer .company-map {float: left; width: 283px; height: 231px; background: #000}
+.company-layer .company-addr {float: left; margin-left: 20px; padding-top: 28px;}
+.company-layer .company-addr .c-add-btn {width: 84px;}
+.company-layer .company-addr .c-add-btn:hover {text-decoration: underline;}
+.company-layer .company-addr h6 {font-size: 14px; margin-top: 28px;}
+.company-layer .c-addr-search-bar {width: 240px; margin-top: 10px; overflow: hidden;}
+.company-layer .c-addr-search-bar input {float: left; width: 150px; height: 32px; padding-left: 4px; border: 1px solid #cacaca; border-right: 0}
+.company-layer .c-addr-search-bar button {float: left; width: 85px; height: 34px; line-height: 34px; color: #fff; background: #a4d250; border: 0 }
+.company-layer .company-addr .addr-sure-btn {display:block; width: 97px; height: 34px; line-height: 34px; margin-top: 43px; background: #3ed1bf; color: #fff; text-align: center;}
+.company-layer .company-time {position: relative; padding: 0 0 87px 50px; margin-left: -50px; border-bottom: 1px solid #dbdbdb}
+.company-layer .company-time ul {margin-top: 25px;}
+.company-layer .company-label {margin-top: 30px; position: relative;}
+.company-layer .company-label ul {width: 420px;}
+.company-layer .company-label li {float: left; margin: 25px 18px 0 0; vertical-align: top; display: inline-block;}
+.company-layer .company-label li span {float: left; display: block; height: 20px; line-height: 20px; padding: 0 10px; border: 1px solid #d1d1d1; border-radius: 10px; color: #808080; white-space: nowrap; cursor: pointer;
+	transition:.2s;
+	-webkit-transition:.2s;
+	-moz-transition:.2s;
+	-o-transition:.2s;
+}
+.company-layer .company-label li span:hover {background: #3ed1bf; border-color: #3ed1bf; color: #fff}
+.company-layer .company-label .c-del-btn {position: absolute; top: 25px; right: 0;}
+.company-layer .company-label .c-del-btn:hover {text-decoration: underline;}
+.company-pro {position: relative; margin-top: 30px; padding-bottom: 30px;}
+.company-pro .c-add-btn {position: absolute; right: 0; top: 0;}
+.company-pro li {position: relative; width: 1090px; height: 108px; margin-top: 30px; border-left: 1px solid #3ed1bf}
+.company-pro .c-p-img {float: left; width: 108px; height: 108px; margin-left: 14px; text-align: center;}
+.company-pro .c-p-img:after {display: inline-block; content: " "; height: 100%; vertical-align: middle;}
+.company-pro .c-p-img img {display: inline-block; vertical-align: middle;}
+.company-pro .c-p-details {float: left; margin-left: 10px;}
+.company-pro .c-p-details .c-p-title {font-size: 14px; margin-bottom: 10px;}
+.company-pro .c-p-details .c-p-tags {margin-bottom: 15px; overflow: hidden;}
+.company-pro .c-p-details .c-p-tags a {float: left; display: inline-block; height: 20px; line-height: 20px; margin-right: 12px; padding: 0 10px; border: 1px solid #d1d1d1; border-radius: 10px; color: #808080;
+	transition:.3s;
+	-webkit-transition:.3s;
+	-moz-transition:.3s;
+	-o-transition:.3s;
+}
+.company-pro .c-p-details .c-p-tags a:hover {background: #3ed1bf; border-color: #3ed1bf; color: #fff}
+.company-pro .c-p-details .text {width: 865px; overflow: hidden;}
+.company-pro .c-p-btn {float: right;}
+
+/*账号管理*/
+.acc-main {display: none; padding: 30px 0 0 40px; min-height: 489px;}
+.acc-main .acc-status {margin-bottom: 28px;}
+.acc-main .acc-tips {margin-top: 28px;}
+.acc-main .acc-tips p {line-height: 25px;}
+.acc-main .acc-input {width: 248px; height: 38px; text-indent: 10px; border: 1px solid #cacaca;}
+.acc-main .acc-input:focus {border-color: #3ed1bf;}
+.acc-main .acc-submit-btn {width: 160px; height: 40px; line-height: 40px; background: #3fb5c1; color: #fff; border: 0}
+.acc-main th,.acc-main td {padding: 15px 0}
+.acc-main th {width: 75px; text-align: right; padding-right: 10px}
+
+.acc-main .com-certification {overflow: hidden;}
+.acc-main .com-certification .money-transfer {padding: 20px 0 0 80px;}
+.acc-main .com-certification .money-transfer h6 {font-size: 14px}
+.acc-main .com-certification .money-transfer-num {margin: 30px 0}
+.acc-main .com-certification .money-transfer-num p {margin: 20px 0 0 72px}
+.acc-main .com-certification .money-transfer-num .finish-rz-btn {display: block; margin: 40px 0 0 72px}
+

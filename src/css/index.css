@@ -1,0 +1,147 @@
+/*main*/
+.main-bg {width: 100%; background: url('../../img/bg.png') no-repeat center 369px}
+.index-main {position: relative; width: 1180px; height: 2840px; margin: 0 auto}
+.graph-wrap,.index-animate-wrap  {position: relative; width: 1180px;}
+.graph-wrap .graph-icon {display: block; position: absolute; background: url('../../img/graph.png') no-repeat 0 0}
+.graph-wrap .graph1 {top: 103px; left: 28px; width: 35px; height: 40px; background-position: 0 0;}
+.graph-wrap .graph2 {top: 230px; right: 457px; width: 84px; height: 60px; background-position: 0 -42px;	}
+.graph-wrap .graph3 {top: 593px; left: 387px; width: 50px; height: 43px; background-position: 0 -107px}
+.graph-wrap .graph4 {top: 1081px; left: -93px; width: 48px; height: 48px; background-position: 0 -158px}
+.graph-wrap .graph5 {top: 1220px; right: -13px; width: 68px; height: 57px; background-position: 0 -210px}
+.graph-wrap .graph6 {top: 1379px; left: 333px; width: 93px; height: 29px; background-position: 0 -279px}
+.graph-wrap .graph7 {top: 1690px; right: -88px; width: 34px; height: 38px; background-position: 0 -316px}
+.graph-wrap .graph8 {top: 2156px; right: -88px; width: 42px; height: 41px; background-position: 0 -360px}
+.graph-wrap .graph9 {top: 2318px; left: -96px; width: 68px; height: 57px; background-position: 0 -408px}
+.graph-wrap .graph10 {top: 2676px; right: 209px; width: 49px; height: 91px; background-position: 0 -468px}
+.graph-wrap .graph1,.graph-wrap .graph9 {
+	-webkit-animation: move1 3s ease-in-out alternate infinite;
+	-moz-animation-: move1 3s ease-in-out alternate infinite;
+	-o-animation: move1 3s ease-in-out alternate infinite;
+	animation: move1 3s ease-in-out alternate infinite;
+}
+.graph-wrap .graph3,.graph-wrap .graph4,.graph-wrap .graph7,.graph-wrap .graph8 {
+	-webkit-animation: rotate2 5s linear infinite;
+	-moz-animation-: rotate2 5s linear infinite;
+	-o-animation: rotate2 5s linear infinite;
+	animation: rotate2 5s linear infinite;
+}
+.graph-wrap .graph5 {
+	-webkit-animation: move2 3s ease-in-out alternate infinite;
+	-moz-animation-: move2 3s ease-in-out alternate infinite;
+	-o-animation: move2 3s ease-in-out alternate infinite;
+	animation: move2 3s ease-in-out alternate infinite;
+}
+.graph-wrap .graph2,.graph-wrap .graph6,.graph-wrap .graph10 {
+	-webkit-animation: rotate1 3s linear alternate infinite;
+	-moz-animation-: rotate1 3s linear alternate infinite;
+	-o-animation: rotate1 3s linear alternate infinite;
+	animation: rotate1 3s linear alternate infinite;
+}
+
+.index-animate-wrap .text {position: absolute; opacity: 0; filter: alpha(opacity=0);}
+.index-animate-wrap .index-text1 {top: 240px; left: -83px;}
+.index-animate-wrap .index-text2 {top: 895px; right: -50px;}
+.index-animate-wrap .index-text3 {top: 1686px; left: -85px;}
+.index-animate-wrap .index-pic {position: absolute; background: url('../../img/index_pic.png') no-repeat 0 0; opacity: 0; filter: alpha(opacity=0)}
+.index-animate-wrap .index-pic1 {top: 350px; right: 129px; width: 301px; height: 226px; background-position: 0 0}
+.index-animate-wrap .index-pic2 {top: 1000px; left: 95px; width: 300px; height: 234px; background-position: 0 -239px}
+.index-animate-wrap .index-pic3 {top: 1816px; right: 130px; width: 302px; height: 234px; background-position: 0 -494px}
+
+.index-case {position: absolute; left: 50%; top: 2490px; width: 785px; margin-left: -392px; opacity: 0; filter: alpha(opacity=0); z-index: 100;}
+.index-case li {float: left; padding: 0px 15px; margin-bottom: 49px;}
+.index-case li a {display: block; width: 125px; height: 125px; border: 1px solid #fff; border-radius: 3px; 
+	transition: .3s ease-out; 
+	-webkit-transition: .3s ease-out;
+	-moz-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+}
+.index-case li a:hover {box-shadow: 0 0 20px #808080}
+.index-info {background: #fff}
+
+.index-platform {height: 376px; padding: 40px 0 30px; background: url('../../img/index_bg.jpg') no-repeat right 40px;}
+.platform-text {float: left;}
+.platform-text h2 {font-size: 20px; margin: 34px 0 53px;}
+.platform-text p {font-size: 16px; margin-bottom: 28px;}
+.platform-text p em {padding: 0 15px; color: #ffc107; font-size: 30px; font-family: arial; font-weight: normal; vertical-align: -2px}
+.platform-text p em.pl0 {padding-left: 0;}
+
+/*关于微招*/
+.news-wrap .news-title {padding: 45px 0 30px 0; text-align: center; border: 1px solid #dbdbdb;}
+.news-wrap .news-title h1 {font-size: 20px; margin-bottom: 18px;}
+.news-wrap .news-title h6 {font-size: 14px;}
+.news-wrap .news-container {padding: 0 215px;}
+.news-wrap .news-content {margin: 30px 0 45px;}
+.news-wrap .news-content p {text-indent: 2em; line-height: 25px; margin: 10px 0;}
+.news-wrap .news-pages {margin-bottom: 110px;}
+.news-wrap .news-pages a {color: #3ed1bf;}
+.news-wrap .news-pages a:hover {text-decoration: underline;}
+.news-wrap .news-pages .prev-btn {float: left;}
+.news-wrap .news-pages .next-btn {float: right}
+
+@keyframes move1{
+	from{
+		-webkit-transform: translateX(-50px) translateY(-30px);
+		-moz-transform: translateX(-50px) translateY(-30px);
+		-ms-transform: translateX(-50px) translateY(-30px);
+		-o-transform: translateX(-50px) translateY(-30px);
+		transform: translateX(-50px) translateY(-30px);
+	}
+	to{
+		-webkit-transform: translateX(50px) translateY(30px);
+		-moz-transform: translateX(50px) translateY(30px);
+		-ms-transform: translateX(50px) translateY(30px);
+		-o-transform: translateX(50px) translateY(30px);
+		transform: translateX(50px) translateY(30px);
+	}
+}
+@keyframes move2{
+	from{
+		-webkit-transform: translateX(50px) translateY(-50px);
+		-moz-transform: translateX(50px) translateY(-50px);
+		-ms-transform: translateX(50px) translateY(-50px);
+		-o-transform: translateX(50px) translateY(-50px);
+		transform: translateX(50px) translateY(-50px);
+	}
+	to{
+		-webkit-transform: translateX(-50px) translateY(30px);
+		-moz-transform: translateX(-50px) translateY(30px);
+		-ms-transform: translateX(-50px) translateY(30px);
+		-o-transform: translateX(-50px) translateY(30px);
+		transform: translateX(-50px) translateY(30px);
+	}
+}
+@keyframes rotate1{
+	from{
+		-webkit-transform: rotate(-30deg);
+		-moz-transform: rotate(-30deg);
+		-ms-transform: rotate(-30deg);
+		-o-transform: rotate(-30deg);
+		transform: rotate(-30deg);
+	}
+	to{
+		-webkit-transform: rotate(30deg);
+		-moz-transform: rotate(30deg);
+		-ms-transform: rotate(30deg);
+		-o-transform: rotate(30deg);
+		transform: rotate(30deg);
+	}
+}
+@keyframes rotate2{
+	from{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	to{
+		-webkit-transform: rotate(-360deg);
+		-moz-transform: rotate(-360deg);
+		-ms-transform: rotate(-360deg);
+		-o-transform: rotate(-360deg);
+		transform: rotate(-360deg);
+	}
+}
+
+
+

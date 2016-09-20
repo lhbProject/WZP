@@ -1,0 +1,29 @@
+.login-layout {width: 800px;}
+.company-login-wrap {margin: 0 0 150px;}
+.c-l-head {height: 60px; line-height: 60px; border-bottom: 1px solid #dbdbdb}
+.c-l-head h6 {float: left; padding-left: 40px; font-size: 16px;}
+.c-l-tags {float: right; padding-right: 20px; overflow: hidden;}
+.c-l-tags li {float: left; padding: 0 25px; font-size: 16px;}
+.c-l-tags li a {display: block; height: 60px; padding: 0 5px; color: #808080}
+.c-l-tags li a:hover {color:#3fb5c1}
+.c-l-tags li.active a {height: 56px; border-bottom: 4px solid #3fb5c1; color: #3fb5c1;}
+.c-l-form {padding: 35px 0 0 150px; font-size: 14px;}
+.c-l-form th {width: 128px; padding-right: 10px; text-align: right;}
+.c-l-form td {padding: 15px 0;}
+.c-l-form .c-form-input {width: 243px; height: 38px; padding-left: 5px; border: 1px solid #cacaca}
+.c-l-form .c-form-input:focus {border-color: #3ed1bf}
+.c-l-form .forget-pwd {color: #808080; margin-left: 20px; text-decoration: underline;}
+.c-l-form .forget-pwd:hover {color: #3fb5c1}
+.c-l-form .c-login-btn {display: block; width: 160px; height: 40px; line-height: 40px; text-align: center; color: #fff; background: #3fb5c1; border: 0}
+.c-l-form .c-clause {margin-bottom: 5px;}
+.c-l-form .c-clause input {vertical-align: -2px; margin-right: 10px;}
+.c-l-form .c-clause a {color: #3fb5c1;}
+.c-l-form .c-clause a:hover {text-decoration: underline;}
+
+.layer-rule {border: 10px solid rgba(103,103,103,.5);}
+.layer-rule .layui-layer-title {text-align: center;}
+.layer-rule .reg-rule-main {width: 490px; height: 445px; margin: 0 auto; font-size: 14px; padding: 10px 0; overflow: auto;}
+.layer-rule .reg-rule-main p {text-indent: 2em; line-height: 20px;}
+
+
+
